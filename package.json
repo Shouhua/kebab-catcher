@@ -1,0 +1,22 @@
+{
+  "name": "kebab-catcher",
+  "version": "0.0.1",
+  "description": "find import syntax not use kebab name style",
+  "main": "index.js",
+  "bin": {
+    "kebab-catcher": "index.js"
+  },
+  "scripts": {},
+  "keywords": [
+    "kebab",
+    "vue parser"
+  ],
+  "author": "shouhua peng",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^7.1.0",
+    "acorn-walk": "^7.0.0",
+    "camelcase": "^5.3.1",
+    "vue-eslint-parser": "^7.0.0"
+  }
+}
